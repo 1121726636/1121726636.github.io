@@ -1,6 +1,6 @@
 const up_blacklist = ['NathanRich火锅大王','大祥哥来了'];
-const title_blackwords = ['原神','乔碧罗'];
-const region_blacklist = ['原神','三次元舞蹈'];
+const title_blackwords = ['原神','乔碧罗','大'];
+const region_blacklist = ['原神'];
 let body = $response.body;
 console.log($request.url)
 console.log(body)
