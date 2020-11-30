@@ -90,7 +90,7 @@ zhihu feed = type=http-response,requires-body=1,max-size=0,pattern=https://api.z
 zhihu recommend = type=http-response,requires-body=1,max-size=0,pattern=https://api.zhihu.com/topstory/recommend,script-path=https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20zhihu%20recommend.js
 zhihu answer = type=http-response,requires-body=1,max-size=0,pattern=https://api.zhihu.com/v4/questions,script-path=https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20zhihu%20answer.js
 # 哔哩哔哩动画 精简去广告 (By @Kaya)
-精简去广告 = type=http-response,pattern=https:\/\/app\.bilibili\.com\/(search\/resource|x\/(resource\/show\/tab|v2\/(view|rank|feed|reply\/main|account\/mine))),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/1121726636/1121726636.github.io/master/Bilibili.js
+#精简去广告 = type=http-response,pattern=https:\/\/app\.bilibili\.com\/(search\/resource|x\/(resource\/show\/tab|v2\/(view|rank|feed|reply\/main|account\/mine))),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/1121726636/1121726636.github.io/master/Bilibili.js
 # > 哔哩哔哩 精简&去广告
 开启1080P+ = type=http-response,pattern=https:\/\/ap(p|i)\.bilibili\.com\/((pgc\/player\/api\/playurl)|(x\/v2\/account\/myinfo\?)|(x\/v2\/account/mine\?)),requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/nzw9314/Surge/master/Script/BiliHD.js
 收藏排行 = type=http-response,requires-body=1,max-size=0,pattern=https://app.bilibili.com/x/v2/space\?access_key,script-path=https://raw.githubusercontent.com/onewayticket255/Surge-Script/master/surge%20bilibili%20space.js
