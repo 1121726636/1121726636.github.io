@@ -25,7 +25,7 @@ DOMAIN-KEYWORD,epicgames
 # > Google
 DOMAIN-KEYWORD,mtalk.google.com
 DOMAIN,safebrowsing.googleapis.com
-#DOMAIN-SUFFIX,dl.google.com
+DOMAIN-SUFFIX,dl.google.com
 
 # > Microsoft
 DOMAIN-SUFFIX,msftconnecttest.com
