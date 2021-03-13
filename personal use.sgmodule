@@ -44,6 +44,9 @@ URL-REGEX,^http(s)://api.bjxkhc.com/index.php/app/ios/ads/index,REJECT-TINYGIF
 [Header Rewrite]
 
 [Script]
+
+Fa米家_开屏去广告 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/fmapp\.chinafamilymart\.com\.cn\/api\/app\/market\/start\/ad,script-path=https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/famijia/famijia_checkin.js
+
 #embypremiere
 emby-adr-vD.js = script-path=https://raw.githubusercontent.com/1121726636/1121726636.github.io/master/emby-adr-vD.js,requires-body=1,max-size=0,type=http-response,pattern=^https://mb3admin.com/admin/service/registration/validateDevice
 emby-adr-v.js = script-path=https://raw.githubusercontent.com/1121726636/1121726636.github.io/master/emby-adr-v.js,requires-body=1,max-size=0,type=http-response,pattern=^https://mb3admin.com/admin/service/registration/validate
